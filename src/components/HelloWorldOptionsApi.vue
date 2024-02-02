@@ -7,6 +7,10 @@ export default {
     };
   },
   methods: {},
+  created() {
+    const paramValue = this.$route.params.monParam;
+    console.log("Received parameter:", paramValue);
+  },
 };
 </script>
 

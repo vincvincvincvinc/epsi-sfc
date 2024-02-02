@@ -11,7 +11,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/hello-world',
+      path: '/hello-world/:monParam',
       name: 'hello-world',
       component: HelloWorldOptionsApi
     },
